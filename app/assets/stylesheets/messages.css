@@ -31,18 +31,22 @@
 .main-header {
   height: 100px;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .messages {
   background-color: #FAFAFA;
   height: calc(100vh - 190px);
   padding: 46px 40px 0;
+  overflow: scroll;
 }
 
 .form {
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+  display: flex;
 }
 
 .account-edit a {
@@ -66,4 +70,88 @@
 .room-name a {
   color: white;
   text-decoration: none;
+}
+
+.title-header {
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.end-header {
+  margin-top: 40px;
+}
+
+.end-header a {
+  color: darkred;
+  padding: 20px;
+  border: darkred solid 1px;
+  text-decoration: none;
+}
+
+
+.message-box {
+  margin: 10px 0;
+}
+
+.top-message {
+  display: flex;
+}
+
+.user-name {
+  font-size: 16px;
+  color: #434A54;
+  padding-right: 10px;
+}
+
+.time {
+  font-size: 12px;
+  color: #999;
+}
+
+.message {
+  font-size: 14px;
+  color: #434A54;
+  margin-bottom: 40px;
+}
+
+.bottom-message {
+  margin-top: 10px;
+}
+
+.input-form {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.message-form {
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+}
+
+.send-form {
+  background-color: #38aef0;
+  border: none;
+  height: 50px;
+  font-size: 16px;
+  color: white;
+  padding: 0 20px;
+  margin-left: 15px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
 }
